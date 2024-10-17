@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+.nav .nav-link{
+    color: black;
+}
+
+.nav .nav-link:hover{
+    color: coral;
+}
+
+.navbar-nav{
+    margin-left: 300px;
+    color: black;
+}
+.nav-item {
+    padding-left: 20px;
+   
+}
+.nav-item .nav-link{
+    color: black;
+}
+.nav-item .nav-link:hover{
+    color: coral;
+}
+.carousel-item {
+    background-image: url("./assets/flower-4081164_1280.webp");
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    
+}
+
+#banner-text{
+    margin-top: 150px;
+    padding-left: 300px;
+    font-family: "Cinzel", serif;
+}
+#banner-text #button{
+    background-color: coral;
+    color: white;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 25px;
+
+}
+#banner-text #button:hover{
+    background-color: white;
+    color: coral;
+}
+#section1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text{
+    text-align: center;
+    font-weight: 500;
+}
+
+.section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.row .btn{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+.timer{
+    /* text-align: center; */
+    margin-top: 20px;
+}
+.timer-unit{
+    display: inline-block;
+    padding: 10px 20px;
+    /* margin-left: 10px; */
+    font-size: 20px;
+    
+}
+.container2 h2{
+    margin-left: 60px;
+}
+.section3{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* .section3 .card-img{
+    width: 350px;
+} */
+.section3 .card-btn{
+    background-color: coral;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 135px;
+}
+.reviews{
+    margin-top: 120px;
+    margin-left: 500px;
+}
+#card-review{
+    margin-top: 35px;
+    margin-left: 410px;
+}
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+@media screen and (max-width: 500px) {
+    .carousel-item{
+        width: 100%;
+        height: 750px;
+        object-fit: cover;
+    }
+    #banner-text{
+        margin-top: 80px;
+        padding-left: 80px;
+    }
+    .banner2{
+        margin-left: 60px;
+    }
+    .section2{
+        align-items: center;
+    }
+    .text{
+        text-align: left;
+    }
+    .reviews{
+        margin-left: 150px;
+        margin-top: 220px;
+    }
+    #card-review{
+        margin-left: 0px;
+    }
+}
